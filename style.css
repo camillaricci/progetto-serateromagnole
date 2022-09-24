@@ -1,0 +1,293 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 60px;
+	margin: 50px 0;
+	color: rgb(230, 92, 0);
+}
+h2{
+	font-family: franklin-gothic-urw, sans-serif;
+	font-size: 30px;
+	color: yellow;
+	letter-spacing: 3px
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center; 
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 8px;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+
+.decoration-none { 
+	text-decoration: none;
+}
+
+.section-title{
+	padding: 20px 0px;
+	text-align: center;
+}
+
+.paragraph-one-home{
+	font-family: 'Noto Serif Display', serif;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	margin-top: 65px;
+	margin-bottom: 65px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.img-home{
+	float: left;
+	margin: 20px 25px 20px 0;
+	border-radius: 5px; 
+	width: 300px;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+.div-home{
+	padding: 40px;
+	margin: 30px;
+	border-radius: 7px;
+	border: 3px solid rgb(230, 92, 0);
+	background-color: rgba(0,0,0,0.6);
+}
+
+
+
+.card-title-home{
+	font-family: franklin-gothic-urw, sans-serif;
+	font-size: 30px;
+	color: rgb(230, 92, 0);
+	padding: 10px 0px;
+}
+.card-title-pages{
+	text-align: center;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 5px 0px;
+	color: rgb(230, 92, 0);
+}
+
+
+.colornavhome{
+	color: yellow;
+}
+
+.colornavpages{
+	color: white;
+	font-weight: 600;
+}
+
+
+.events-title{
+	font-family: franklin-gothic-urw, sans-serif;
+	margin: 10px 0;
+	font-size: 20px;
+	color: black;
+}
+
+.events-content{
+ font-family: franklin-gothic-urw, sans-serif;	
+ font-size: 18px;
+ padding: 5px 0px;
+}
+
+
+.disco-container-title{
+	color: white;
+	text-align: center;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 20px 0px;
+}
+
+.disco-container{
+	display: flex;
+	gap: 25px;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 25px 0;
+}
+
+
+
+.genre-presentation{
+	margin: 20px 30px ;
+	border-radius: 7px;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.genre-presentation-text{
+	font-family: 'Noto Serif Display', serif;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	font-size: 18px; 
+	padding: 40px;
+}
+
+.disco{
+	width: 250px;
+	margin:10px;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 7px;
+	padding: 10px;
+	box-shadow: 0px 1px 12px 1px #1D1D1D;
+	font-family: 'Noto Serif Display', serif;
+	font-size: 15px;
+	font-weight: bold;
+  }
+
+
+
+.body-background-home{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/68/Rimini_beach_umbrellas_at_night.jpg");
+	background-size:cover;
+}
+.body-background-commerciale{
+		background-image: url("https://c.pxhere.com/photos/29/bb/audience_band_celebration_concert_crowd_festival_lights_music-978778.jpg!d");
+		background-size:cover;
+}
+.body-background-afro{
+		background-image: url("https://c.pxhere.com/photos/52/91/laser_show_laser_show_colorful_color_light_artificial_light_light_show-981578.jpg!d");
+		background-size:cover;
+}
+.body-background-techno{
+		background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0b/White_Diamonds_Party.jpg");
+		background-size:cover;
+}
+.body-background-reggaeton{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/db/DJ_Tiesto_party%2C_Bangkok%2C_Thailand.jpg");
+	background-size: cover; 
+}
+.body-background-trap{
+	background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/crowd-audience_FYXAZHCHGM.jpg");
+	background-size: cover;
+}
+.body-background-rock{
+	background-image: url("https://c.pxhere.com/photos/52/f9/audience_concert_crowd_festival_nightlife_party_people_performance-1177804.jpg!d");
+	background-size: cover;
+}
+
+.bigdiv{
+	padding: 5px;
+	margin: 30px 30px;
+	border-radius: 7px;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.card-content-home{
+	font-family: 'Noto Serif Display', serif;
+	text-align: left;
+	font-style: bold;
+	margin-top: 0px;
+	margin-right: 100px;
+	color: white;
+	font-size: 20px;
+	font-weight: 1000;
+} 
+.card-content-pages{
+	font-family: 'Noto Serif Display', serif;
+	text-align: center;
+	margin: 5px 0px;
+	color: white;
+	font-size: 16px;
+}
+
+.card {
+	width: 300px;
+	margin-right: 5px;
+	margin-left: 5px; 
+	display: inline-block;
+	background-color: rgba(230, 92, 0, 0.7);
+	transition: 0.5s;
+  }
+  
+  .card:hover{
+	box-shadow: 0px 0px 5px 5px rgba(230, 92, 0, 0.7);
+  }
+  
+  .container{
+	padding: 10px 20px;
+	margin-top: 0px;
+	border-radius: 3px;
+  }
+  
+  .cardimg{
+	  width: 100%;
+	  height: 150px;
+	  object-fit: cover;
+	  border-radius: 5px; 
+  }
+
+.border-commerciale{
+	border: 3px solid yellow;
+}
+.border-afro{
+	border: 3px solid green;
+}
+.border-raggaeton{
+	border: 3px solid red;
+}
+.border-trap{
+	border: 3px solid gray;
+}
+.border-rock{
+	border: 3px solid pink;
+}
+.border-techno{
+	border: 3px solid purple;
+}
+
+.social-title{
+	padding-top: 20px;
+}
+
+
+.bottom-footer{
+	font-family: 'Noto Serif Display', serif;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 20px 0 10px 0;
+}
+
+.footerstyle {
+  text-align: center;
+  margin-top: 50px;
+  background-color: rgba(230, 92, 0, 0.8);
+  font-family: franklin-gothic-urw, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: white;
+}
+
+.bodycolordocumentazione{
+	background-color: #00004d;
+}
+
+
